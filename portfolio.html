@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./CSS/portfolio.css" />
+    <link rel="stylesheet" href="./CSS/portfolio.min.css" />
   </head>
   <body>
     <header>
@@ -27,7 +27,9 @@
               <p class="decor-line"></p>
             </li>
             <li class="list-item">
-              <a href="./portfolio.html" class="link nav-link">Портфолио</a>
+              <a href="./portfolio.html" class="link nav-link active"
+                >Портфолио</a
+              >
               <p class="decor-line"></p>
             </li>
             <li class="list-item">
@@ -60,12 +62,22 @@
       <section>
         <div class="container button-container">
           <h1 hidden>Портфолио проектов</h1>
-          <ul class="button list">
-            <li class="list"><button class="button">Все</button></li>
-            <li class="list"><button class="button">Веб-сайты</button></li>
-            <li class="list"><button class="button">Приложения</button></li>
-            <li class="list"><button class="button">Дизайн</button></li>
-            <li class="list"><button class="button">Маркетинг</button></li>
+          <ul class="button-list">
+            <li class="list">
+              <button class="portfolio-button">Все</button>
+            </li>
+            <li class="list">
+              <button class="portfolio-button">Веб-сайты</button>
+            </li>
+            <li class="list">
+              <button class="portfolio-button">Приложения</button>
+            </li>
+            <li class="list">
+              <button class="portfolio-button">Дизайн</button>
+            </li>
+            <li class="list">
+              <button class="portfolio-button">Маркетинг</button>
+            </li>
           </ul>
         </div>
         <div class="container portfolio-container">
@@ -276,8 +288,7 @@
       <div class="footer-main-container">
         <div class="footer-container">
           <a lang="en" href="./" class="link logo">
-            Web
-            <span class="footer logo">Studio</span>
+            Web<span class="footer logo">Studio</span>
           </a>
           <address class="address-footer">
             <ul class="footer list">

@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
   </head>
   <body>
     <header>
@@ -23,7 +23,7 @@
         <nav class="nav-container">
           <ul class="list">
             <li class="list-item">
-              <a href="./index.html" class="link nav-link">Студия</a>
+              <a href="./index.html" class="link nav-link active">Студия</a>
               <p class="decor-line"></p>
             </li>
             <li class="list-item">
@@ -333,42 +333,42 @@
         <div class="container clients-container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="list clients-list">
-            <li class="clients list-item">
+            <li class="clients-list-item">
               <a class="link client-svg" href="">
                 <svg class="svg-icon">
                   <use href="./images/symbol-defs.svg#client1"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients list-item">
+            <li class="clients-list-item">
               <a class="link client-svg" href="">
                 <svg class="svg-icon">
                   <use href="./images/symbol-defs.svg#client2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients list-item">
+            <li class="clients-list-item">
               <a class="link client-svg" href="">
                 <svg class="svg-icon">
                   <use href="./images/symbol-defs.svg#client3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients list-item">
+            <li class="clients-list-item">
               <a class="link client-svg" href="">
                 <svg class="svg-icon">
                   <use href="./images/symbol-defs.svg#client4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients list-item">
+            <li class="clients-list-item">
               <a class="link client-svg" href="">
                 <svg class="svg-icon">
                   <use href="./images/symbol-defs.svg#client5"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients list-item">
+            <li class="clients-list-item">
               <a class="link client-svg" href="">
                 <svg class="svg-icon">
                   <use href="./images/symbol-defs.svg#client6"></use>
@@ -383,8 +383,7 @@
       <div class="footer-main-container">
         <div class="footer-container">
           <a lang="en" href="./" class="link logo">
-            Web
-            <span class="footer logo">Studio</span>
+            Web<span class="footer logo">Studio</span>
           </a>
           <address class="address-footer">
             <ul class="footer list">
@@ -514,8 +513,9 @@
             <a href="" class="link modal-link">Условия договора</a>
           </label>
         </form>
-        <button data-modal-close type="submit" class="button">Отправить</button>
-        <button data-modal-close type="button" class="close-modal">
+        <button type="submit" class="button" data-modal-close>Отправить</button>
+
+        <button type="button" class="close-modal" data-modal-close>
           <img src="./images/close.svg" alt="Закрыть окно" />
         </button>
       </div>
